@@ -1,7 +1,12 @@
 {
   "name": "app",
   "packageManager": "yarn@4.9.2",
+  "scripts": {
+    "build": "rspack"
+  },
   "dependencies": {
+    "@rspack/cli": "^1.6.8",
+    "@rspack/core": "^1.6.8",
     "lodash": "^4.17.21"
   }
 }
